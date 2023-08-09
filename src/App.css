@@ -1,38 +1,222 @@
-.App {
+#App {
+  /* text-align: center; */
+  position: relative;
+  
+}
+
+#navBar{
+  
+}
+
+li{
+  display: inline-block;
+  padding: 10px;
+}
+
+#screen1{
+  width: 50%;
+  margin: 0px auto;
+  
+  /* background-color: yellow; */
+}
+
+ul{
+  text-align: right;
+}
+
+#logo img{
+height: 40px;
+width: 100px;
+}
+
+#logo{
+  position: absolute;
+  left: 350px;
+  top: 12px
+}
+
+#screen1Heading{
+  color: white;
+  font-size: 35px;
+  text-align: left;
+  /* position: relative;
+  left: -150px */
+}
+
+#mobImage{
+  position: relative;
+  left: 430px;
+  bottom: 340px
+}
+
+#screen1Container {
+  /* background-image: url('path/to/your/image.jpg'); */
+  background-size: cover; /* This will cover the entire container */
+  background-position: center; /* This will center the image within the container */
+  width: 100%; /* Set the width of the container */
+  position: relative;
+  /* background-attachment: fixed; */
+  height: 800px; 
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#screen2{
+  margin: 10px auto;
+  width: 50%;
+  
+  /* background-color: antiquewhite; */
+}
+
+#services{
+  display: flex;
+  justify-content: space-evenly;
+  /* grid: auto auto / auto auto auto auto; */
+ grid-gap: 10px;
+}
+
+#services div{
+  height: 150px;
+  width: 20%;
+}
+
+#services img{
+  height: 170px;
+  width: 120%;
+}
+
+#screen3{
+  margin: 10px auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 30px
+}
+
+#quickAnswers{
+  /* background-color:antiquewhite; */
+  /* border: 1px solid black; */
+  height: 500px;
+  width: 50%;
+  position: relative;
+  top: -30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+
+}
+#quickAnswers div{
+  /* border: 1px solid black; */
+  height: 33.3%;
+  padding: 15px;
+  word-spacing: 2px
+
+}
+#quickAnswers div:hover{
+background-color: #EBF7FC;
+}
+#screen4 #div1{
+  margin-left: 40px;
+}
+
+#quickAnswers h5{
+  color: #68BAE3;
+}
+
+#screen4{
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly
+}
+
+#screen4 div{
+  /* border: 1px solid black; */
+  height: 400px;
+}
+
+#screen4 h2{
+  color: #68BAE3;
+  word-spacing: 4px;
+  
+}
+
+#screen4 img{
+  width: 330px;
+  height: 250px;
+}
+
+#screen5{
+  width: 65%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#screen5 h2{
+  color: #68BAE3;
+}
+
+#screen5 div{
+  width: 50%;
+}
+
+#screen5 p{
+  word-spacing: 4px;
+  font-size: 15px;
+  width: 70%;
+  line-height: 20px;
+}
+
+#screen5Text{
+  position: relative;
+  left: 150px;
+  top: 70px;
+  display: inline-block;
+}
+
+
+#screen5Text img{
+  display: block;
+  margin-left: -70px;
+  margin-top: -50px;
+}
+
+#screen5Text #onlyText{
+  position: absolute;
+  top: 20px
+
+}
+
+#screen6{
+  margin: 10px auto;
+  width: 45%;
+}
+
+#headingsScreen6{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#screen7{
+  height: 300px;
+  width: 100%;
+  background-color: #F2F9FF;
+  text-align: center;
+  margin: 10px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer{
+  width: 100%;
+  height: 300px;
+  background-color: #F2F9FF;
+  position: relative;
+  bottom: -30;
 }
