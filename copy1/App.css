@@ -4,11 +4,8 @@
   
 }
 
-#navBarUl{
-  position: relative;
-  left: 0px;
-  bottom : 40px
-
+#navBar{
+  
 }
 
 li{
@@ -19,9 +16,8 @@ li{
 #screen1{
   width: 50%;
   margin: 0px auto;
-  height: 300px;
   
-  /* background-color:black */
+  /* background-color: yellow; */
 }
 
 ul{
@@ -34,14 +30,14 @@ width: 100px;
 }
 
 #logo{
-  position: relative;
-  left: 0px;
+  position: absolute;
+  left: 350px;
   top: 4px
 }
 
 #screen1Heading{
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   text-align: left;
   /* position: relative;
   left: -150px */
@@ -49,37 +45,18 @@ width: 100px;
 
 #mobImage{
   position: relative;
-  text-align: right;
-  bottom : 380px
-  /* left: 430px;
-  bottom: 340px */
+  left: 430px;
+  bottom: 340px
 }
 
 #screen1Container {
   /* background-image: url('path/to/your/image.jpg'); */
+  background-size: cover; /* This will cover the entire container */
+  background-position: center; /* This will center the image within the container */
+  width: 100%; /* Set the width of the container */
+  position: relative;
   /* background-attachment: fixed; */
-
-  background-size: cover; 
-  background-position: center;
-  width: 100%; 
-  position: relative;
-  height: 1000px ;
-
-
-  width: 100%; /* Or set a specific width */
-  height: 150vh; /* Or set a specific height */
-  /* background-image: url('your-image-url.jpg'); */
-  background-size: cover; /* or background-size: contain; */
-  background-position: center center; /* You can adjust this if needed */
-  background-repeat: no-repeat;
-}
-
-#screen1Content{
-  position: relative;
-  
-  /* transform: translateX(50%); */
-  transform: translateY(0%);
-  /* background-color: blanchedalmond; */
+  height: 800px; 
 }
 
 body,
@@ -92,12 +69,9 @@ html {
 }
 
 #screen2{
+  margin: 10px auto;
   width: 50%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -80%);
-
+  
   /* background-color: antiquewhite; */
 }
 
@@ -114,15 +88,8 @@ html {
 }
 
 #services img{
-  height: 130%;
-  width: 130%;
-}
-
-#services img:hover{
-  
-    height: 135%;
-  width: 135%;
-  
+  height: 170px;
+  width: 120%;
 }
 
 #screen3{
@@ -142,7 +109,6 @@ html {
   top: -30px;
   display: flex;
   flex-direction: column;
-  left: 16px
   /* justify-content: space-around; */
 
 }
@@ -157,7 +123,7 @@ html {
 background-color: #EBF7FC;
 }
 #screen4 #div1{
-  margin-left: 10%;
+  margin-left: 40px;
 }
 
 #quickAnswers h5{
@@ -165,7 +131,7 @@ background-color: #EBF7FC;
 }
 
 #screen4{
-  width: 90%;
+  width: 80%;
   margin: 10px auto;
   display: flex;
   justify-content: space-evenly
@@ -188,14 +154,14 @@ background-color: #EBF7FC;
 }
 
 #screen5{
-  width: 70%;
-  margin: 0px auto;
+  width: 65%;
+  margin: 10px auto;
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 
 }
 
-#screen5 h1{
+#screen5 h2{
   color: #68BAE3;
 }
 
@@ -205,18 +171,14 @@ background-color: #EBF7FC;
 
 #screen5 p{
   word-spacing: 4px;
-  font-size: 20px;
+  font-size: 15px;
   width: 70%;
   line-height: 20px;
-  color: #868E95;
-  margin-left: 20px;
- 
-
 }
 
 #screen5Text{
   position: relative;
-  left: 100px;
+  left: 150px;
   top: 70px;
   display: inline-block;
 }
@@ -225,13 +187,12 @@ background-color: #EBF7FC;
 #screen5Text img{
   display: block;
   margin-left: -70px;
-  margin-top: -60px;
+  margin-top: -50px;
 }
 
 #screen5Text #onlyText{
   position: absolute;
-  top: 20px;
-  /* font-size: 35px; */
+  top: 20px
 
 }
 
@@ -264,32 +225,15 @@ background-color: #EBF7FC;
   text-decoration: underline;
   cursor: pointer;
 }
-/* #wefreshMobileBig */
 
-@media  (max-width : 410px){
-  #weFreshWebNew1{
-    display: none;
-  }
-  .wefreshMobileBig{
-    display: none;
-  }
-  
-}
-
-@media (min-width : 411px) and (max-width : 490px){
-  #weFreshWebNew1{
-    display: none;
-  }
-  .wefreshMobile{
+@media screen and (max-width : 470px){
+  #wefreshWeb{
     display: none;
   }
 }
 
-@media (min-width : 491px){
+@media screen and (min-width : 471px){
   .wefreshMobile{
-    display: none;
-  }
-  .wefreshMobileBig{
     display: none;
   }
 }
@@ -297,7 +241,7 @@ background-color: #EBF7FC;
 .image-container {
   position: relative;
   /* Set width and height to match the image dimensions */
-  height: 230px;
+  height: 250px;
 }
 
 .logo {
@@ -338,19 +282,10 @@ background-color: #EBF7FC;
   right: 15%;
 }
 
-.logosBig{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  /* text-align: center; */
-  /* left: 35px;
-  right: 35px; */
-}
-
 .logos{
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30%;
+  right: 20%
 }
 
 .drawMenu{
