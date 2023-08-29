@@ -1,3 +1,5 @@
+
+
 #App {
   /* text-align: center; */
   position: relative;
@@ -29,19 +31,19 @@ ul{
 }
 
 #logo img{
-height: 40px;
-width: 100px;
+height: 40%;
+width: 15%;
 }
 
 #logo{
   position: relative;
   left: 0px;
-  top: 4px
+  top: 13px
 }
 
 #screen1Heading{
   color: white;
-  font-size: 45px;
+  font-size: 305%;
   text-align: left;
   /* position: relative;
   left: -150px */
@@ -56,8 +58,7 @@ width: 100px;
 }
 
 #screen1Container {
-  /* background-image: url('path/to/your/image.jpg'); */
-  /* background-attachment: fixed; */
+
 
   background-size: cover; 
   background-position: center;
@@ -114,18 +115,19 @@ html {
 }
 
 #services img{
-  height: 130%;
-  width: 130%;
+  max-width: 120%;
+  height: auto;
 }
 
 #services img:hover{
-  
-    height: 135%;
-  width: 135%;
+  max-width: 125%;
+  height: auto;
+
   
 }
 
 #screen3{
+  background-size: 44%;
   margin: 10px auto;
   width: 60%;
   display: flex;
@@ -134,12 +136,9 @@ html {
 }
 
 #quickAnswers{
-  /* background-color:antiquewhite; */
-  /* border: 1px solid black; */
-  height: 500px;
   width: 50%;
   position: relative;
-  top: -30px;
+  top: -50px;
   display: flex;
   flex-direction: column;
   left: 16px
@@ -148,7 +147,7 @@ html {
 }
 #quickAnswers div{
   /* border: 1px solid black; */
-  height: 33.3%;
+  height: 30%;
   padding: 15px;
   word-spacing: 2px
 
@@ -188,51 +187,26 @@ background-color: #EBF7FC;
 }
 
 #screen5{
-  width: 70%;
+  position: relative;
+  width: 75%;
+  right:5%;
+  /* border: 1px solid black; */
   margin: 0px auto;
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 
 }
 
-#screen5 h1{
-  color: #68BAE3;
-}
-
-#screen5 div{
-  width: 50%;
-}
-
-#screen5 p{
-  word-spacing: 4px;
-  font-size: 20px;
-  width: 70%;
-  line-height: 20px;
-  color: #868E95;
-  margin-left: 20px;
- 
-
-}
-
-#screen5Text{
-  position: relative;
-  left: 100px;
-  top: 70px;
-  display: inline-block;
-}
 
 
-#screen5Text img{
-  display: block;
-  margin-left: -70px;
-  margin-top: -60px;
-}
-
-#screen5Text #onlyText{
+#screen5 #onlyText{
   position: absolute;
-  top: 20px;
-  /* font-size: 35px; */
-
+  /* width: 60%; */
+  top:45%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  /* text-align: center; */
+  margin: 10px auto;
 }
 
 #screen6{
@@ -266,7 +240,88 @@ background-color: #EBF7FC;
 }
 /* #wefreshMobileBig */
 
-@media  (max-width : 410px){
+@media  (max-width : 610px){
+  #div6New{
+    width: 90%;
+    margin: 10px auto;
+  }
+  #back4New {
+    width: 100%;
+    position: relative;
+    bottom: 290px;
+  }
+  #div5New {
+    color: #68BAE3;
+    position: relative;
+    bottom: 600px;
+    text-align: center;
+    font-size: 30px;
+  }
+ 
+  #div4New {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #div3New{
+    position: relative;
+    height: 550px;
+    width: 70%;
+    left: 13%;
+   }
+
+  #img2New {
+    width: 90%;
+    height: 100%;
+  }
+
+ #back2New {
+    position: absolute;
+    width: 120%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  
+ #div2New{
+position: relative;
+top: -150px;
+text-align: center;
+font-size: 26px;
+color:#68BAE3 
+
+}
+ 
+  #div1New{
+  position: relative;
+  height: 550px;
+  width: 70%;
+  left:16%;
+  top:-300px
+ }
+  #mob1New{
+    width: 90%;
+    height: 100%;
+  }
+  .inputs{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    right: 15%;
+  }
+  .heading1{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 33px;
+  
+  }
   #weFreshWebNew1{
     display: none;
   }
@@ -276,16 +331,255 @@ background-color: #EBF7FC;
   
 }
 
-@media (min-width : 411px) and (max-width : 490px){
+#inputsNew{
+  
+  width: 90%;
+  margin: 10px auto;
+}
+
+
+
+@media (min-width : 421px) and (max-width : 610px){
+
+
+  #till420px{
+  display: none;
+}
+#blackIphoneNew{
+  width: 80%;
+  height: 110%;
+}
+
+#normalIphoneNew{
+  position: inherit;
+  left:6%;
+  width: 80%;
+  height: 110%;
+}
+}
+@media (max-width : 420px){
+#after420px{
+  display: none;
+}
+#blackIphoneNew{
+  width: 100%;
+  height: 100%;
+}
+#normalIphoneNew{
+  width: 95%;
+  height: 100%;
+}
+}
+
+
+
+
+
+@media (min-width : 611px) and (max-width : 819px){
+  #div6New{
+    width: 60%;
+    margin: 10px auto;
+  }
+  
+  #back4New {
+    width: 100%;
+    position: relative;
+    height: 700px;
+    /* bottom: 190px; */
+  }
+  #div5New {
+    color: #68BAE3;
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    font-size: 30px;
+  }
+    
+ 
+  #img4New{
+    width: 100%;
+  }
+  
+  #div4New {
+    width: 60%;
+    margin: 10px auto;
+  }
+  
+ 
+  #div3New{
+  position: relative;
+  height: 550px;
+  width: 70%;
+  left: 13%;
+ }
+ 
+  #img2New {
+    width: 60%;
+    height: 100%;
+  }
+
+ #back2New {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+ 
+ 
+  #div2New{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 26px;
+    color:#68BAE3 
+    
+    }
+  
+  #div1New{
+    position: relative;
+    height: 550px;
+    width: 70%;
+    left:29%;
+    top:-100px
+   }
+  
+  #mob1New{
+    width: 60%;
+    height: 100%;
+  }
+  #mobBackNew{
+    position: absolute;
+    width: 95%;
+    top: 80%;
+    left:35%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+  }
+  .inputs{
+    position: absolute;
+    top: 115%;
+    left: 15%;
+    right: 15%;
+  }
+  
+  #inputsNew{
+    width: 70%;
+    margin: 10px auto;
+  }
   #weFreshWebNew1{
     display: none;
   }
   .wefreshMobile{
     display: none;
   }
+
+  .heading1{
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  right: 15%;
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  line-height: 45px;
+
+}
+  
+
+}
+#newFindus{
+  height:650px;
+   width:80%;
+    position:relative;
+     left:20%
 }
 
-@media (min-width : 491px){
+@media (min-width:420) and (max-width: 611){
+  
+}
+@media (min-width : 491px) and (max-width : 1200px){
+
+
+  #screen3{
+    background-size: 58%;
+  }
+#newNav{
+  width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+}
+
+#screen8Input{
+  width: 40%;
+  margin: 10px auto;
+}
+
+@media (min-width: 819px) and (max-width:1200px){
+
+#screen3{
+  background-size: 44%;
+  margin: 10px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 30px
+}
+
+
+
+  
+  #screen5div2Img{
+    width: 370px;
+  }
+  #screen8Input{
+    width: 52%;
+    margin: 10px auto;
+  }
+  #screen6{
+    margin: 10px auto;
+    width: 65%;
+  }
+  
+  #headingsScreen6{
+    text-align: center;
+  }
+  #services img{
+    max-width: 120%;
+    height: auto;
+  }
+  #newFindus{
+    height:650px;
+     width:100%;
+      position:"relative";
+       left:5%
+  }
+  
+  
+  #services{
+    display: flex;
+    width: 150%;
+    margin-left:-25%;
+    justify-content: space-evenly;
+    /* grid: auto auto / auto auto auto auto; */
+   grid-gap: 1px;
+   /* border: 1px solid black; */
+  }
+}
+@media (min-width : 1201px){
+
+  #newNav{
+    position: relative;
+    width: 60%;
+    margin: auto;
+  }
+}
+
+
+@media (min-width : 819px){
   .wefreshMobile{
     display: none;
   }
@@ -296,7 +590,6 @@ background-color: #EBF7FC;
 
 .image-container {
   position: relative;
-  /* Set width and height to match the image dimensions */
   height: 230px;
 }
 
@@ -319,32 +612,15 @@ background-color: #EBF7FC;
   right:23px
 }
 
-.heading1{
-  position: absolute;
-  top: 45%;
-  left: 15%;
-  right: 15%;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  line-height: 33px;
 
-}
 
-.inputs{
-  position: absolute;
-  top: 75%;
-  left: 15%;
-  right: 15%;
-}
+
 
 .logosBig{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  /* text-align: center; */
-  /* left: 35px;
-  right: 35px; */
+ 
 }
 
 .logos{
@@ -366,3 +642,4 @@ background-color: #EBF7FC;
   width: 100%;
   margin-left: 20%;
 }
+

@@ -9,7 +9,7 @@ function Navbar (){
                 <img src={logo}  />
             </span>
             <br></br>
-            <ul style={{fontWeight:"500", color:"#14243C"}} id='navBarUl'>
+            <ul style={{fontWeight:"500", fontSize:"20px", color:"#14243C"}} id='navBarUl'>
                 
 
                  <li>Our App</li> &nbsp;
